@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Ouvrir sur Allociné",
-  "description": "Permet de rechercher automatiquement un titre sur allocine.fr",
-  "version": "1.0",
+  "name": "Allociné.fr",
+  "description": "Faites des recherches Allociné.fr plus simplement",
+  "version": "1.1",
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["browser-polyfill.js", "background.js"],
+    "persistent": true
   },
   "icons": { 
     "16": "allocine.png",
@@ -14,7 +14,7 @@
   },
 	"browser_action": {
 		"default_icon": "allocine.png",
-		"default_title": "Ouvrir sur Allociné"
+		"default_title": "Allocine.fr"
   },
   "omnibox": { "keyword" : "ac" },
   "permissions": [

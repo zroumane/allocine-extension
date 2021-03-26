@@ -1,0 +1,38 @@
+[
+  {
+    "hostname" : "canalplus.com",
+    "code" : "('.bodyTitle___DZEtt')[0].innerText"
+  },
+  {
+    "hostname" : "disneyplus.com",
+    "code" : "('.cgJCpD')[0].firstElementChild.alt"
+  },
+  {
+    "hostname" : "netflix.com",
+    "code" : "('.previewModal--player-titleTreatment-logo')[0].title"
+  },
+  {
+    "hostname" : "go.ocs.fr",
+    "code" : "('.title')[1].innerText"
+  },
+  {
+    "hostname" : "hbo.com",
+    "code" : "('.modules/InfoSlice--assetTitle')[0].innerText"
+  },
+  {
+    "hostname" : "play.hbomax.com",
+    "code" : "('[aria-level=\"1\"]')[0].innerText"
+  },
+  {
+    "hostname" : "tv.apple.com",
+    "code" : "('.review-card__title')[0].firstElementChild.innerText"
+  },
+  {
+    "hostname" : "primevideo.com",
+    "code" : "('._2IIDsE _3I-nQy')[0].innerText"
+  },
+  {
+    "hostname" : "imdb.com",
+    "code": "('.title_wrapper')[0].children[0].textContent.replaceAll('  ', '').replace( /\\(([^)]+)\\)/ , '')"
+  }
+]
