@@ -49,7 +49,7 @@ browser.browserAction.onClicked.addListener(function() {
 function showError() {
   browser.notifications.create({
     type: "basic",
-    iconUrl: "allocine.png",
+    iconUrl: "icon/allocine_128.png",
     title: "Erreur !",
     message: "Impossible de rechercher ce contenu sur Allociné.fr",
     priority: 2
