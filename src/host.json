@@ -1,38 +1,40 @@
 [
   {
-    "hostname" : "canalplus.com",
+    "host" : "canalplus.com",
     "code" : "('.bodyTitle___DZEtt')[0].innerText"
   },
   {
-    "hostname" : "disneyplus.com",
-    "code" : "('.cgJCpD')[0].firstElementChild.alt"
+    "host" : "disneyplus.com",
+    "code" : "('.sc-fFTYTi')[0].firstChild.alt"
   },
   {
-    "hostname" : "netflix.com",
+    "host" : "netflix.com",
+    "path": "browse",
     "code" : "('.previewModal--player-titleTreatment-logo')[0].title"
   },
   {
-    "hostname" : "go.ocs.fr",
+    "host" : "netflix.com",
+    "path": "title",
+    "code" : "('.title-title')[0].innerText"
+  },
+  {
+    "host" : "go.ocs.fr",
     "code" : "('.title')[1].innerText"
   },
   {
-    "hostname" : "hbo.com",
-    "code" : "('.modules/InfoSlice--assetTitle')[0].innerText"
-  },
-  {
-    "hostname" : "play.hbomax.com",
+    "host" : "play.hbomax.com",
     "code" : "('[aria-level=\"1\"]')[0].innerText"
   },
   {
-    "hostname" : "tv.apple.com",
+    "host" : "tv.apple.com",
     "code" : "('.review-card__title')[0].firstElementChild.innerText"
   },
   {
-    "hostname" : "primevideo.com",
-    "code" : "('._2IIDsE _3I-nQy')[0].innerText"
+    "host" : "primevideo.com",
+    "code" : "('._2IIDsE')[0].innerText"
   },
   {
-    "hostname" : "imdb.com",
-    "code": "('.title_wrapper')[0].children[0].textContent.replaceAll('  ', '').replace( /\\(([^)]+)\\)/ , '')"
+    "host" : "imdb.com",
+    "code": "('.TitleHeader__TitleText-sc-1wu6n3d-0')[0].innerText"
   }
 ]
