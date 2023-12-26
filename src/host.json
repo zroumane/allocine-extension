@@ -1,11 +1,11 @@
 [
   {
     "host" : "canalplus.com",
-    "code" : "('.bodyTitle___DZEtt')[0].innerText"
+    "code" : "('.detailV5__title-image___tF8z1')[0].alt"
   },
   {
     "host" : "disneyplus.com",
-    "code" : "('.sc-fFTYTi')[0].firstChild.alt"
+    "code" : "('.sc-hXhGGG')[0].firstChild.alt"
   },
   {
     "host" : "netflix.com",
